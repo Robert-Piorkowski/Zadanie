@@ -42,7 +42,7 @@
                     @if($products->count())
                         @foreach($products as $key => $product)
                             <tr>
-                                <td>{{ $product->id }}</td>
+                                <td>{{ $id++ }}</td>
                                 <td>{{ $product->name }}</td>
                                 <td>{{ $product->description }}</td>
                                 <td>{{ $product->price }}</td>
